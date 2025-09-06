@@ -1,0 +1,46 @@
+#container{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    background-color: white;
+    border: 2px solid teal;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#container div{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*      <!-- ------------------------question2 ----------------------- --> */
+
+#flexcontainer{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid teal;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#flexcontainer div{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 5px;
+    /* brings the line into the center  */
+    line-height: 50px; 
+    font-size: 24px;
+}

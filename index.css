@@ -3,12 +3,39 @@
 #container{
     height: 500px;
     width: 80%;
-    background-color: beige;
+    background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
+    /* elements fits into the container  -- limits need to stay in parent  == row*/
+    display: flex;  
+
+    /* to change from row to column */
+    flex-direction: column;
+
+    /* control the space into the elements  */
+    /* justify-content: space-around; */
+
+    /* flex-wrap: wrap; */
+
+    /* align-items: center; */
+
+    align-content: center;
+
 }
 
 h1{
     text-align: center;
+}
+
+#container div{
+    height: 30px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#r{
+    align-self: center;
 }
 
