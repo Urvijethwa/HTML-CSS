@@ -1,0 +1,43 @@
+h1{
+    background-color: rgb(27, 132, 224);
+    border: 2px solid black;
+}
+
+/* when my device width reaches the specified do...*/
+@media (width: 500px){
+    h1{
+        background-color: yellow;
+        color: pink;
+    }
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: violet;
+    }
+}
+
+@media (min-width: 700px){
+    h1{
+        background-color: gray;
+    }
+}
+
+@media(max-width: 200px){
+    h1{
+        background-color: red;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 650px){
+    h1{
+        background-color: black;
+        color: aliceblue;
+    }
+}
+
+@media(orientation: landscape){
+    h1{
+        background-color: rgb(15, 133, 34);
+        color: azure;
+    }
+}
