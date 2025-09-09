@@ -1,0 +1,21 @@
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.one{
+    background-color: aqua;
+    position: relative;
+    z-index: 1;
+}
+
+.two{
+    background-color: orange;
+    /* helps move the box */
+    position: relative;
+    /* move the box by 50px */
+    bottom: 50px;
+
+}
